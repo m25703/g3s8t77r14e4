@@ -1,12 +1,12 @@
 import React from 'react';
-import './App.css';
-import VideoPlayer from './vp';
+import './VideoPlayer.css';
+import Vp from './vp';
 
 class App extends React.Component {
   render() {
     return (
       <div>
-        <VideoPlayer />
+        <Vp />
       </div>
     );
   }
